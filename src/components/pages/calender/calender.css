@@ -1,0 +1,50 @@
+.calender{
+flex:4;
+}
+.modal-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.modal-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;;
+  font-weight: 600;
+  background-color: #3f51b5;
+  padding: 10px 20px;
+  color: #fff;
+
+}
+.modal-input{
+  width:100% ;
+  margin-top: 15px;
+  padding:20px;
+
+}
+
+.wrapper {
+  margin-top: 30px ;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  
+}
+
+.modal-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+form.makeStyles-root-1 {
+  padding: 20px;
+}
+div.makeStyles-paper-2 {
+  padding:0;
+  outline: none;
+  border-radius: 5px;
+  overflow: hidden;
+}

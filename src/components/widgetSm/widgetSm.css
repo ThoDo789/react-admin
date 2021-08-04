@@ -1,0 +1,57 @@
+.widgetsm{
+  flex:1;
+  box-shadow: 2px 3px 5px rgb(0 0 0 / 24%);
+  padding:20px;
+  margin-right:20px;
+
+}
+.widgetsm-title{
+font-size: 32px;
+font-weight: 600;
+}
+.widgetsm-list{
+  margin: 0;
+  padding:0;
+  list-style: none;
+}
+.widgetsm-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+
+}
+.widgetsm-img{
+  display: block;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+object-fit: cover;
+}
+.widgetsm-user{
+  display: flex;
+  flex-direction: column;
+
+}
+.widgetsm-username{
+    font-weight: 600;
+}
+.widgetsm-user-title{
+font-weight: 300;
+}
+.widgetsm-btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border: none;
+    padding:7px 10px;
+    border-radius: 10px;
+
+    background-color: #eeeef7;
+    color:#555;
+    cursor: pointer;
+}
+.widgetsm-icon {
+  font-size: 16px  !important;
+  margin-right: 5px;
+}
